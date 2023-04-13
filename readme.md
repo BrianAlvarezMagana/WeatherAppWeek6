@@ -6,19 +6,20 @@ As a traveler I want to be able to lookup the current and upcoming weather for v
 
 ## Description
 
+ using the Day.js library, Bootstrap CSS library, and Open Weather API we can display the current and future weather conditions with stats and icons.
 
 ## URL
 
-
+https://brianalvarezmagana.github.io/WeatherAppWeek6/
 
 ## Screenshots
 
-<img src="" />
+<img src="C:\Users\Brian\Documents\bootcamp\homework\week6\assets\WeatherAppWeek6-2023-04-13-07_47_21.png" />
 
 
 ## Credits
 
-Brian Alvarez- Magana, chatGPT, ww3schools, stackoverflow, Google, Youtube, Github, https://mxb.dev/, 
+Brian Alvarez- Magana, chatGPT, ww3schools, stackoverflow, Google, Youtube, Github, Class Work code, BootStrap 
 
 ## License
 

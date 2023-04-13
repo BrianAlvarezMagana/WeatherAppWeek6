@@ -1,7 +1,7 @@
-// window loading for previous searched cities
+// Window loading for previous searched cities
 window.addEventListener("load", displayRecentCities);
 
-// universal variables
+// Universal variables
 const APIKey = "2bc700e76041ffb081a76ec8221c81f0";
 const button = document.getElementById("searchBtn");
 const cityInput = document.querySelector('input');
@@ -35,6 +35,7 @@ document.getElementById("day4").innerHTML = day4;
 const day5 = today.add(5, 'day').format('MM/DD/YYYY');
 document.getElementById("day5").innerHTML = day5;
 
+// Button listeners
 document.addEventListener("DOMContentLoaded", function() {
   button.addEventListener("click", getCurrentWeather);
   button.addEventListener("click", getForecast);
@@ -86,8 +87,7 @@ function getForecast(){
   .then(response => response.json())
   .then(data => {
     console.log(data);
-  // update 5-day forecast cards
-  // since this is for 5 days we can get it to work in a for loop 
+  // update 5-day forecast cards with for loop
     for (let i = 0; i < 5; i++) {
       const card = document.getElementById(`card${i+1}`);
       const day = document.getElementById(`day${i+1}`);
